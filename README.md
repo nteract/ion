@@ -1,10 +1,19 @@
 # ion
 
-A React-backed UI Toolkit
+A React-backed UI Toolkit for nteract apps
 
-> "nteract React components, without an Electron"
+> nteract React components, missing an Electron
 
 ```
+npm install --save @nteract/ion
+```
+
+
+## Likely Usage
+
+(this is README driven development at the moment)
+
+```jsx
 import {
   Card,
   Prompt,
