@@ -41,9 +41,9 @@ ReactDOM.render(
 );
 ```
 
-## Goal
+## Goals
 
-Coalesce styled components across the nteract org into one nice UI kit that includes many of the basics like:
+1. Coalesce styled components across the nteract org into one nice UI kit that includes many of the basics like:
 
 * Colors
 * Typography
@@ -59,7 +59,9 @@ Coalesce styled components across the nteract org into one nice UI kit that incl
 * Notifications (in-app "toasts")
 * Cards and Elevation
 
-As well as common elements we support across nteract apps
+As well as common elements we support across nteract apps.
+
+2. Develop an approachable, manageable and contributor-friendly JavaScript codebase.
 
 * Directory Listing
 
