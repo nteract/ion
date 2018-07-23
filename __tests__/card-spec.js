@@ -2,20 +2,20 @@
 import * as React from "react";
 import { shallow } from "enzyme";
 import toJson from "enzyme-to-json";
-import { Elevation } from "../src/constants";
-import { Card } from "../src";
+
+import { Card, Elevation } from "../src";
 
 describe("Card", () => {
   it("renders a div with elevation prop", () => {
     const component = shallow(
       <div>
-        <Card elevation={Elevation.LOWEST}>
+        <Card elevation={Elevation.low}>
           <code>[1]</code>Test
         </Card>
-        <Card elevation={Elevation.MEDIUM}>
+        <Card elevation={Elevation.middle}>
           <code>[2]</code>The
         </Card>
-        <Card elevation={Elevation.HIGHEST}>
+        <Card elevation={Elevation.high}>
           <code>[3]</code>Cards
         </Card>
       </div>

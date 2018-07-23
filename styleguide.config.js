@@ -15,6 +15,7 @@ module.exports = {
   //     "logo.js"
   //   )
   // },
+  require: [path.join(__dirname, "src")],
   webpackConfig: {
     module: {
       rules: [
