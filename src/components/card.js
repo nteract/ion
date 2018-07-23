@@ -1,6 +1,12 @@
+// @flow
 import * as React from "react";
 
-export class Card extends React.Component {
+type CardProps = {
+  children: React.Node,
+  elevation: number
+};
+
+export class Card extends React.Component<CardProps, null> {
   static defaultProps = {
     children: null,
     elevation: null
