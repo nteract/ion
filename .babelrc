@@ -1,5 +1,5 @@
 {
-  "presets": ["flow"],
+  "presets": ["env", "react", "flow"],
   "plugins": [
     "styled-jsx/babel"
   ]
