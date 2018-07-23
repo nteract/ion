@@ -1,6 +1,7 @@
 {
-  "presets": ["env", "react", "flow"],
+  "presets": ["@babel/preset-env", "@babel/preset-react", "@babel/preset-flow"],
   "plugins": [
-    "styled-jsx/babel"
+    "styled-jsx/babel",
+    "@babel/plugin-proposal-class-properties"
   ]
 }

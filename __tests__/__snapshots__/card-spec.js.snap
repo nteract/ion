@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders a div with elevation prop 1`] = `
+<div>
+  <Card
+    elevation={1}
+  >
+    <code>
+      [1]
+    </code>
+    Test
+  </Card>
+  <Card
+    elevation={2}
+  >
+    <code>
+      [2]
+    </code>
+    The
+  </Card>
+  <Card
+    elevation={3}
+  >
+    <code>
+      [3]
+    </code>
+    Cards
+  </Card>
+</div>
+`;
