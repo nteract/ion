@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea renders a simple text area 1`] = `
+<div
+  className="jsx-3156478211"
+>
+  <textarea
+    className="jsx-3156478211 nt-input nt-intent-primary nt-fill nt-large"
+    intent="primary"
+  />
+  <JSXStyle
+    css=".nt-fill.jsx-3156478211{display:block;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.nt-large.jsx-3156478211{font-size:large;}.nt-input.jsx-3156478211{border:none;border-radius:3px;-webkit-box-shadow:0 0 0 0 rgba(19,124,189,0), 0 0 0 0 rgba(19,124,189,0), inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);box-shadow:0 0 0 0 rgba(19,124,189,0), 0 0 0 0 rgba(19,124,189,0), inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);background:#fff;vertical-align:middle;color:#182026;-webkit-transition:-webkit-box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9);-webkit-transition:-webkit-box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9);transition:-webkit-box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9);-webkit-transition:box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9);transition:box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9);-webkit-transition:box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9), -webkit-box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9);transition:box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9), -webkit-box-shadow 0.1s cubic-bezier(0.4,1,0.75,0.9);}.nt-intent-primary.jsx-3156478211{-webkit-box-shadow:0 0 0 0 rgba(19,124,189,0), 0 0 0 0 rgba(19,124,189,0),inset 0 0 0 1px #137cbd, inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);box-shadow:0 0 0 0 rgba(19,124,189,0), 0 0 0 0 rgba(19,124,189,0),inset 0 0 0 1px #137cbd, inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);}.nt-intent-success.jsx-3156478211{-webkit-box-shadow:0 0 0 0 rgba(15,153,96,0), 0 0 0 0 rgba(15,153,96,0),inset 0 0 0 1px #0f9960, inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);box-shadow:0 0 0 0 rgba(15,153,96,0), 0 0 0 0 rgba(15,153,96,0),inset 0 0 0 1px #0f9960, inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);}.nt-intent-warning.jsx-3156478211{-webkit-box-shadow:0 0 0 0 rgba(217,130,43,0), 0 0 0 0 rgba(217,130,43,0),inset 0 0 0 1px #d9822b, inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);box-shadow:0 0 0 0 rgba(217,130,43,0), 0 0 0 0 rgba(217,130,43,0),inset 0 0 0 1px #d9822b, inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);}.nt-intent-danger.jsx-3156478211{-webkit-box-shadow:0 0 0 0 rgba(219,55,55,0), 0 0 0 0 rgba(219,55,55,0),inset 0 0 0 1px #db3737, inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);box-shadow:0 0 0 0 rgba(219,55,55,0), 0 0 0 0 rgba(219,55,55,0),inset 0 0 0 1px #db3737, inset 0 0 0 1px rgba(16,22,26,0.15), inset 0 1px 1px rgba(16,22,26,0.2);}"
+    styleId="3156478211"
+  />
+</div>
+`;
