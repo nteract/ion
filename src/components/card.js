@@ -4,6 +4,13 @@ import { Elevation } from "../common/elevation";
 import type { ElevationLevel } from "../common/elevation";
 
 import * as Classes from "../common/classes";
+import {
+  ntElevationNone,
+  ntElevationLow,
+  ntElevationMiddle,
+  ntElevationHigh,
+  ntElevationHighest
+} from "../common/styles";
 
 type CardProps = {
   children: React.Node,
@@ -22,31 +29,11 @@ export class Card extends React.Component<CardProps, null> {
     return (
       <div className={className} elevation={this.props.elevation}>
         {this.props.children}
-        <style jsx>{`
-          .nt-elevation-none {
-          }
-
-          .nt-elevation-low {
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.02),
-              0 0px 1px rgba(0, 0, 0, 0.9);
-          }
-
-          .nt-elevation-middle {
-            box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1),
-              0 1px 1px rgba(16, 22, 26, 0.2), 0 2px 6px rgba(16, 22, 26, 0.2);
-          }
-
-          .nt-elevation-high {
-            box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1),
-              0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
-          }
-
-          .nt-elevation-highest {
-            box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1),
-              0 4px 8px rgba(16, 22, 26, 0.2),
-              0 18px 46px 6px rgba(16, 22, 26, 0.2);
-          }
-        `}</style>
+        <style jsx>{ntElevationNone}</style>
+        <style jsx>{ntElevationLow}</style>
+        <style jsx>{ntElevationMiddle}</style>
+        <style jsx>{ntElevationHigh}</style>
+        <style jsx>{ntElevationHighest}</style>
       </div>
     );
   }
