@@ -3,7 +3,7 @@
 exports[`Card renders a div with elevation prop 1`] = `
 <div>
   <Card
-    elevation={1}
+    elevation="low"
   >
     <code>
       [1]
@@ -11,7 +11,7 @@ exports[`Card renders a div with elevation prop 1`] = `
     Test
   </Card>
   <Card
-    elevation={2}
+    elevation="middle"
   >
     <code>
       [2]
@@ -19,7 +19,7 @@ exports[`Card renders a div with elevation prop 1`] = `
     The
   </Card>
   <Card
-    elevation={3}
+    elevation="high"
   >
     <code>
       [3]

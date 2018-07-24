@@ -1,4 +1,3 @@
 // @flow
-import { Card } from "./components/card";
-
-export { Card };
+export * from "./common";
+export { Card } from "./components/card";
