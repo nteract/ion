@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea renders a simple text area 1`] = `
+<div
+  className="jsx-1405787395"
+>
+  <textarea
+    className="jsx-1405787395  fill large"
+  />
+  <JSXStyle
+    css=".fill.jsx-1405787395{display:block;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.large.jsx-1405787395{font-size:large;}"
+    styleId="1405787395"
+  />
+</div>
+`;
