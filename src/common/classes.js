@@ -7,6 +7,7 @@ import { Intent } from "./intent";
 
 export const FILL = `nt-fill`;
 export const LARGE = `nt-large`;
+export const INPUT = `nt-input`;
 
 export function elevation(level: ?ElevationLevel): string {
   console.log(level);
