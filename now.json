@@ -1,4 +1,5 @@
 {
   "name": "nteract-ion",
-  "alias": "ion.nteract.io"
+  "alias": "ion.nteract.io",
+  "public": true
 }
