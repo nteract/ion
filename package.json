@@ -40,9 +40,12 @@
   },
   "homepage": "https://github.com/nteract/ion#readme",
   "dependencies": {
+    "@nteract/octicons": "^0.4.0",
+    "@nteract/timeago": "^3.6.0",
     "classnames": "^2.2.6",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.3",
     "styled-jsx": "^2.2.7"
   },
   "devDependencies": {

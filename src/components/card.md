@@ -1,3 +1,7 @@
+```jsx static
+import { Card } from "@nteract/ion";
+```
+
 It's a card!
 
 ```jsx

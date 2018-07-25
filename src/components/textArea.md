@@ -1,3 +1,7 @@
+```jsx static
+import { TextArea } from "@nteract/ion";
+```
+
 It's a TextArea!
 
 ```jsx
