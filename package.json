@@ -43,6 +43,8 @@
     "@nteract/octicons": "^0.4.0",
     "@nteract/timeago": "^3.6.0",
     "classnames": "^2.2.6",
+    "lodash": "^4.17.10",
+    "next": "^6.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-hot-loader": "^4.3.3",

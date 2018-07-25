@@ -7,3 +7,4 @@ export { Icon } from "./components/icon";
 export { LastSaved } from "./components/lastsaved";
 export { Listing } from "./components/listing";
 export { Name } from "./components/name";
+export { GroupedDirectoryListings } from "./components/directory-listing";
