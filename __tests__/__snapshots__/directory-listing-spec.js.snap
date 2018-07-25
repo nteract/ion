@@ -19,7 +19,7 @@ exports[`Entry accepts props and renders entries in directory 1`] = `
   <LastSaved
     className="directory-entry-field"
     key=".2"
-    lastModified={2018-07-25T04:37:28.311Z}
+    lastModified={2018-07-25T04:41:40.939Z}
     last_modified="Fri Jun 22 2018 00:15:55 GMT-0400 (Eastern Daylight Time)"
   />
   <JSXStyle
