@@ -13,6 +13,9 @@
     "test": "jest",
     "test:flow": "flow"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "jest": {
     "setupFiles": [
       "./scripts/test-setup"
