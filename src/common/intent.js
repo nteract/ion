@@ -1,7 +1,7 @@
 // @flow
 
 export const Intent = {
-  none: "none",
+  none: "plain",
   primary: "primary",
   success: "success",
   warning: "warning",

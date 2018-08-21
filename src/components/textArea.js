@@ -4,7 +4,13 @@ import type { IntentLevel } from "../common/intent";
 import theme from "./theme";
 
 import styled, { ThemeProvider } from "styled-components";
-import { fontSize, boxShadow, width } from "styled-system";
+import {
+  fontSize,
+  boxShadow,
+  width,
+  borderRadius,
+  borders
+} from "styled-system";
 
 type TextAreaProps = {
   fill?: boolean,
@@ -17,6 +23,8 @@ const TextAreaWarpper = styled.textarea`
   ${fontSize};
   ${boxShadow};
   ${width};
+  ${borderRadius};
+  ${borders};
 `;
 
 export class TextArea extends React.Component<TextAreaProps, null> {
@@ -31,8 +39,10 @@ export class TextArea extends React.Component<TextAreaProps, null> {
     return (
       <ThemeProvider theme={theme}>
         <TextAreaWarpper
+          border="none"
+          borderRadius={3}
           fontSize={this.props.large}
-          boxShadow={this.props.intent}
+          boxShadow={this.props.intent ? this.props.intent : "plain"}
           width={this.props.fill ? 1 : 1 / 5}
         >
           {this.props.children}
