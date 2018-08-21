@@ -1,15 +1,20 @@
 // @flow
 import * as React from "react";
-import { Elevation } from "../common/elevation";
 import type { ElevationLevel } from "../common/elevation";
 
-import * as Classes from "../common/classes";
-import { elevationStyles } from "../common/styles";
+import theme from "./theme";
+
+import styled, { ThemeProvider } from "styled-components";
+import { boxShadow } from "styled-system";
 
 type CardProps = {
   children: React.Node,
   elevation: ElevationLevel
 };
+
+const CardWarpper = styled.div`
+  ${boxShadow};
+`;
 
 export class Card extends React.Component<CardProps, null> {
   static defaultProps = {
@@ -17,14 +22,12 @@ export class Card extends React.Component<CardProps, null> {
     elevation: null
   };
   render() {
-    console.log(this.props.elevation);
-    const className = Classes.elevation(this.props.elevation);
-
     return (
-      <div className={className} elevation={this.props.elevation}>
-        {this.props.children}
-        <style jsx>{elevationStyles}</style>
-      </div>
+      <ThemeProvider theme={theme}>
+        <CardWarpper boxShadow={this.props.elevation}>
+          {this.props.children}
+        </CardWarpper>
+      </ThemeProvider>
     );
   }
 }
