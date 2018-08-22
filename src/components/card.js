@@ -1,9 +1,7 @@
 // @flow
 import * as React from "react";
 import type { ElevationLevel } from "../common/elevation";
-
-import theme from "./theme";
-
+import theme from "../common/theme";
 import styled, { ThemeProvider } from "styled-components";
 import { boxShadow } from "styled-system";
 

@@ -1,8 +1,7 @@
 // @flow
 import * as React from "react";
 import type { IntentLevel } from "../common/intent";
-import theme from "./theme";
-
+import theme from "../common/theme";
 import styled, { ThemeProvider } from "styled-components";
 import {
   fontSize,
