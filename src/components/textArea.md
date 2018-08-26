@@ -33,7 +33,7 @@ var { Intent } = require("..");
 
 <div className="textAreas">
   <TextArea intent={Intent.primary} fill={true} />
-  <TextArea intent={Intent.success} large={true} />
+  <TextArea intent={Intent.success} large={4} />
   <style>
     {`
     .textAreas > * {
