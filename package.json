@@ -1,6 +1,6 @@
 {
   "name": "@nteract/ion",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "A React-backed UI Toolkit for interactive computing apps",
   "main": "src/index.js",
