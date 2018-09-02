@@ -3,13 +3,16 @@
   "version": "0.1.1",
   "private": false,
   "description": "A React-backed UI Toolkit for interactive computing apps",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "prepublishOnly": "npm run build && npm run build:flow",
     "docs:dev": "styleguidist server",
     "docs:build": "styleguidist build",
+    "build": "npm run build:clean && npm run build:lib && npm run docs:build",
+    "build:lib": "babel src -d lib --ignore '**/__tests__/**'",
+    "build:clean": "rimraf lib",
+    "build:flow": "flow-copy-source -v -i '**/__tests__/**' src lib",
     "start": "serve ./styleguide",
-    "build:lib": "babel src/ -d lib/",
-    "build": "npm run build:lib && npm run docs:build",
     "test": "jest",
     "test:flow": "flow"
   },
@@ -62,11 +65,13 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
     "flow-bin": "^0.80.0",
+    "flow-copy-source": "^2.0.2",
     "husky": "^1.0.0-rc.13",
     "jest": "^23.4.1",
     "lint-staged": "^7.2.0",
     "prettier": "1.14.2",
     "react-styleguidist": "^7.1.0",
+    "rimraf": "^2.6.2",
     "serve": "^10.0.0",
     "webpack": "^4.16.2"
   }
