@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/nteract/ion/tree/master.svg?style=svg)](https://circleci.com/gh/nteract/ion/tree/master) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+:warning: **This exploration is on hold for a bit while we work on components in the [nteract app monorepo](https://github.com/nteract/nteract)** :warning:
+
 A React-backed UI Toolkit for nteract apps
 
 > nteract React components, missing an Electron
